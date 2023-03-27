@@ -17,7 +17,7 @@ const navigation = (
   <nav>
     <h1>website</h1>
     <ul>
-      <li>Pricing</li>
+      <li>test</li>
       <li>About</li>
       <li>Contact</li>
     </ul>
