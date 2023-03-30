@@ -1,27 +1,19 @@
-/* function MyComponent() {
+import React from "react";
+import ReactDOM from "react-dom";
+import Footer from "./res/components/Footer";
+import MainContent from "./res/components/MainContent";
+import Title from "./res/components/Title";
+import Header from "./res/components/Header";
+function Page() {
   return (
-    <nav>
-      <h1>website</h1>
-      <ul>
-        <li>Pricing</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
+    <div>
+      <Header />
+      <Title />
+      <MainContent />
+      <Footer />
+    </div>
   );
 }
+ReactDOM.render(<Page />, document.querySelector("#root"));
 
-ReactDOM.render(<MyComponent />, document.querySelector("#root")); */
-
-const navigation = (
-  <nav>
-    <h1>website</h1>
-    <ul>
-      <li>test</li>
-      <li>About</li>
-      <li>Contact</li>
-    </ul>
-  </nav>
-);
-console.log(navigation);
-ReactDOM.render(navigation, document.querySelector("#root"));
+//document.querySelector("#root").append(content);
